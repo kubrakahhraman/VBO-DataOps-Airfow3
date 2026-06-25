@@ -13,4 +13,4 @@ Bu proje, uçtan uca veri mühendisliği, otomasyon (CI/CD) ve orkestrasyon sür
   * Geliştirme süreçleri izole bir `dev` branch'inde yapılmış ve GitHub PR (Pull Request) ile `main` branch'ine merge edilmiştir.
   * Kodlar sunucuya manuel (sürükle-bırak vb.) kopyalanmamıştır. Airflow `docker-compose.yaml` içerisindeki `Git-Sync` konfigürasyonu, kişisel GitHub repository'me entegre edilmiş olup, `main` branch'teki güncellemeleri otomatik olarak deploy etmektedir.
 
-**Not:** Mimarinin kurulduğuna dair GitHub PR süreçleri, RustFS Data Lake bağlantısı ve kod yapıları repository içerisindeki `Screenshots` klasöründe yer almaktadır.
+**Not:** Mimarinin kurulduğuna dair GitHub PR süreçleri, RustFS Data Lake bağlantısı ve kod yapıları repository içerisindeki ekran görüntülerinde yer almaktadır.
